@@ -1,0 +1,27 @@
+{
+  "name": "chapa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon --experimental-specifier-resolution=node --ext js,jsx index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.8",
+    "@babel/preset-react": "^7.23.3"
+  }
+}
